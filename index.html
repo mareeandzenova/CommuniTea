@@ -204,7 +204,22 @@
     fields.style.display = 'none';
     success.style.display = 'block';
   }
+// Mobile nav toggle
+const navToggle = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
 
+navToggle.addEventListener('click', function() {
+  navToggle.classList.toggle('open');
+  navLinks.classList.toggle('open');
+});
+
+// Close mobile menu after tapping a link
+navLinks.querySelectorAll('a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    navToggle.classList.remove('open');
+    navLinks.classList.remove('open');
+  });
+});
   function submitNotify() {
     const email = document.getElementById('notify-email').value.trim();
     const msg = document.getElementById('notify-success');
