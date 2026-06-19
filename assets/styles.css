@@ -223,7 +223,7 @@ nav {
 }
 
 /* ══ SECTION 2: PRIVATE EVENTS (overrides band to amber) ══ */
-.band { background: var(--amber); }
+.band { background: var(--chartreuse); }
 .band-inner { padding: 100px 40px; max-width: 1100px; margin: 0 auto; }
 .band .section-title { color: var(--reading-bg); }
 .band .section-eyebrow { color: var(--signal); }
