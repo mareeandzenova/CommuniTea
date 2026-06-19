@@ -223,7 +223,7 @@ nav {
 }
 
 /* ══ SECTION 1.5: MENU ══ */
-.band { background: #FFFFFF; }
+#menu { background: #FFFFFF; }
 
 /* ══ SECTION 2: PRIVATE EVENTS (overrides band to amber) ══ */
 .band { background: var(--chartreuse); }
